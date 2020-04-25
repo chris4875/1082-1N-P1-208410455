@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Monster Killer</title>
+    <link rel="stylesheet" href="assets/styles/app.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <script src="assets/scripts/vendor.js" defer></script>
+    <script src="assets/scripts/app.js" defer></script>
+  </head>
+  <body>
+    <div class="content-block" id="header">
+      <section>
+        <header id="site-header" class="clearfix">
+          <div class="pull-left">
+            <h1><a href="main.html">邱浩哲-208410455</a></h1>
+          </div>
+          <div class="pull-right">
+            <nav class="navbar site-nav" role="navigation">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle"
+                  data-toggle="collapse"
+                  data-target="#bs-example-navbar-collapse-1"
+                >
+                  <i class="fa fa-bars fa-2x"></i>
+                </button>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div
+                class="collapse navbar-collapse"
+                id="bs-example-navbar-collapse-1"
+              >
+                <ul class="nav navbar-nav">
+                  <li class="active">
+                    <a href="calculator.html"
+                      ><i class="fa fa-bullhorn"></i>
+                      <span>Unconventional Calculator</span></a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="monster.html"
+                      ><i class="fa fa-bullhorn"></i>Monster Killer</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="dom.html"
+                      ><i class="fa fa-bullhorn"></i>DOM Movie Project</a
+                    >
+                  </li>
+                  <li>
+                    <a href="music.html"
+                      ><i class="fa fa-bullhorn"></i>Music Player</a
+                    >
+                  </li>
+                  <li>
+                    <a href="video.html"
+                      ><i class="fa fa-bullhorn"></i>Video Player</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            </nav>
+          </div>
+        </header>
+      </section>
+      <!-- overlay-1 -->
+    </div>
+    <section id="health-levels">
+      <h2>MONSTER HEALTH</h2>
+      <progress id="monster-health" max="100" value="100">100%</progress>
+      <h2>PLAYER HEALTH<span id="bonus-life">1</span></h2>
+      <progress id="player-health" max="100" value="100">100%</progress>
+    </section>
+    <section id="controls">
+      <button id="attack-btn">ATTACK</button>
+      <button id="strong-attack-btn">STRONG ATTACK</button>
+      <button id="heal-btn">HEAL</button>
+      <button id="log-btn">SHOW LOG</button>
+    </section>
+  </body>
+</html>
