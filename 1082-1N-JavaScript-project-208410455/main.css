@@ -25,3 +25,10 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+.dropdown-menu {
+  background-color: gray;
+}
+.dropdown-item {
+  margin: 5px;
+}
